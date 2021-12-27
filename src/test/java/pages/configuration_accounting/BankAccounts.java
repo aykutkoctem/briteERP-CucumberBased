@@ -21,6 +21,7 @@ public class BankAccounts {
     @FindBy(xpath = "//button[@accesskey='c']")
     public WebElement createBtn;
 
+    
     @FindBy(name = "name")
     public WebElement bankNameField;
 
